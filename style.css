@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("./img/forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #8F9195;
+    opacity: .5;
+    width: 100%;
+    color: white;
+}
+
+.header .icon {
+    padding: 5px;
+}
+
+.header .date {
+    display: flex;
+    padding: 5px;
+}
+
+.header .date div {
+    margin-right: 7px;
+}
+
+.window {
+    position: relative;
+    left: 50px;
+    top: 10%;
+    width: 40%;
+    height: 60%;
+    background-color: #EBEBEA;
+    border-radius: 20px;
+}
+
+.window .window-header {
+    background-color: #F5F4F3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.window .windows-btn-container {
+    height: 15%;
+    display: flex;
+
+}
+
+.window .windows-btn-container div {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin: 0 3px;
+}
+.close {
+    background-color:#FF5F56;
+}
+.hide {
+    background-color:#FDBB2C;
+}
+.grey {
+    background-color:#C4C5C7;
+}
